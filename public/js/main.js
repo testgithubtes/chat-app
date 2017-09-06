@@ -28,3 +28,8 @@ socket.on('chat', (data) => {
 socket.on('typing', (data) => {
   feedback.innerHTML = '<p><em>'+data+' is typing ...</em></p>';
 });
+
+socket.emit('disconnect', ("data") );
+socket.on('disconnect-affiche',(data) => {
+  output.innerHTML += '<p><em>'+data+'</em>'+' left chat</p>';
+});
