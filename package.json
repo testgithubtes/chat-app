@@ -1,0 +1,30 @@
+{
+  "name": "chat-real3the-net-ninja",
+  "version": "1.0.0",
+  "description": "test chat real time suit the net ninja cours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "testgithubtes"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io",
+    "node.js",
+    "express",
+    "web-app"
+  ],
+  "author": "testgithubtes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
